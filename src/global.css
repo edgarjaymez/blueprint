@@ -1,1 +1,53 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+	/* Colors ---------------- */
+	/* Disable default colors */
+	--color-*: initial;
+	/* Primary color */
+	--color-primary-50: #f6f9fd;
+	--color-primary-100: #c2d7f5;
+	--color-primary-200: #8eb4ec;
+	--color-primary-300: #5a91e2;
+	--color-primary-400: #256fda;
+	--color-primary-500: #1d55a5;
+	--color-primary-600: #18478b;
+	--color-primary-700: #163e79;
+	--color-primary-800: #123568;
+	--color-primary-900: #0f2c57;
+	--color-primary-950: #0c2345;
+	/* Accent color */
+	--color-accent-50: #f8d8e6;
+	--color-accent-100: #f3b5d0;
+	--color-accent-200: #ed92ba;
+	--color-accent-300: #e76fa4;
+	--color-accent-400: #e14c8e;
+	--color-accent-500: #db2777;
+	--color-accent-600: #cd226e;
+	--color-accent-700: #bc1f65;
+	--color-accent-800: #ab1c5c;
+	--color-accent-900: #991952;
+	--color-accent-950: #881649;
+	/* Base colors */
+	--color-base-white: #fff;
+	--color-base-black: #252525;
+	/* Feedback colors */
+	--color-feedback-success-50: #effbf0;
+	--color-feedback-success-500: #1b5e20;
+	--color-feedback-warning-50: #fdebe2;
+	--color-feedback-warning-500: #cc4e0b;
+	--color-feedback-error-50: #fdeded;
+	--color-feedback-error-500: #9b0808;
+	/* Gray scale */
+	--color-accent-50: #f3f4f7;
+	--color-accent-100: #dae0e6;
+	--color-accent-200: #c2cad6;
+	--color-accent-300: #a9b5c6;
+	--color-accent-400: #91a0b5;
+	--color-accent-500: #788ba5;
+	--color-accent-600: #627693;
+	--color-accent-700: #51627b;
+	--color-accent-800: #414f62;
+	--color-accent-900: #313b49;
+	--color-accent-950: #202731;
+}
